@@ -8,7 +8,7 @@ Further improvements will certainly come like :
 
 - [ ] Insert a GUI to simplify the app.
 - [ ] Handle uncommon game paths.
-- [ ] Handle fonts which are not in the font folder.
+- [ ] Handle fonts which are not in the font folder.  
 This list will be updated over the time.
 
 # How to use it
