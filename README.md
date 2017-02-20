@@ -1,7 +1,6 @@
 # h1z1FontChanger
 A small app to change the font on H1Z1 King of the kill  
-*Made by Julien "fLaV" Delvaux*
-
+Made by *Julien "fLaV" Delvaux*
 
 # Version
 This is the first version of the app.  
