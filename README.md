@@ -18,8 +18,9 @@ Download the app and run :
 > app.exe
 
 - Choose the font via the explorer dialog.
-- Locate your h1z1 directory which is like > C:/Program Files (x86)/Steam/steamapps/common/H1Z1 King of the Kill/UI/Resource/Fonts/
+- Locate your h1z1 directory which is like   
+> C:/Program Files (x86)/Steam/steamapps/common/H1Z1 King of the Kill/UI/Resource/Fonts/
 - Apply the fonts
 
-Enjoy :)
+Enjoy :)  
 Feel free to ask me about this, or suggest ideas :)
