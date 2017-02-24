@@ -1,32 +1,44 @@
-/***************************
-****H1Z1 FONT CHANGER*******
-*********BY FLAV************
-***************************/
-
 #include "fileHandler.h"
 
 using namespace std;
 
 fileHandler::fileHandler() {
 
-	fontName = "../font/";
-	gamePath = "C:/Program Files (x86)/Steam/steamapps/common/H1Z1 King of the Kill/UI/Resource/Fonts/";
+	fontPath = "";
+	gamePath = "";
 }
 
-void fileHandler::request() {
-
-	string tmp;
-	cout << "Enter the font Name : " << endl;
-	cin >> tmp;
-
-	fontName += tmp;
-	fontName += ".ttf";
+void fileHandler::setFontPath(string path) {
+    fontPath = path;
+    cout << fontPath << endl;
 }
 
+void fileHandler::setGamePath(string path) {
+    gamePath = path;
+    cout << gamePath << endl;
+}
+
+std::string fileHandler::getFontPath() {
+
+    return fontPath;
+}
+
+std::string fileHandler::getGamePath() {
+
+    return gamePath;
+}
+
+void fileHandler::copy() {
+
+    for(int i = 1; i < 12; i++)
+        copy(i); 
+}
 
 void fileHandler::copy(int cpt) {
 
 	string output = gamePath;
+
+    cout << "LOOOOOOOOOOAD" << endl;
 
 	switch (cpt)
     {
@@ -79,17 +91,10 @@ void fileHandler::copy(int cpt) {
     }
 
 
-	ifstream ifs{fontName ,  ios::binary};
+	ifstream ifs{fontPath ,  ios::binary};
    	ofstream ofs{output , ios::binary};
    	
    	char c;
    	while (ifs.get(c))
     	ofs.put(c);
-}
-
-
-void fileHandler::copy() {
-
-	for(int i = 1; i < 12; i++)
-		copy(i); 
 }

@@ -1,11 +1,14 @@
-app:		main.o fileHandler.o
-			g++ *.o -o ../app
+app:		main.o functions.o fileHandler.o
+			g++ *.o -o ../app -l comdlg32 -fpermissive
 
-main.o:		main.cpp fileHandler.h
-			g++ -c main.cpp
+main.o:		main.cpp functions.cpp fileHandler.cpp
+			g++ -c main.cpp -fpermissive
 
-Session.o: 	fileHandler.cpp fileHandler.h
-			g++ -c fileHandler.cpp
+functions.o: functions.cpp fileHandler.cpp
+			g++ -c functions.cpp -l comdlg32 -fpermissive
+
+fileHandler.o: fileHandler.cpp
+			g++ -c fileHandler.cpp -fpermissive
 
 clean:	
 		rm -f *.o

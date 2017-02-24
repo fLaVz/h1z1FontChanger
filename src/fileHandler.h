@@ -1,9 +1,5 @@
-/***************************
-****H1Z1 FONT CHANGER*******
-*********BY FLAV************
-***************************/
-
-#pragma once
+#ifndef FILEHANDLER_H
+#define FILEHANDLER_H
 
 #include <iostream>
 #include <fstream>
@@ -11,15 +7,22 @@
 
 class fileHandler {
 
-	std::string fontName;
+	std::string fontPath;
 	std::string gamePath;
 
 public:
 
 	fileHandler();
-	
-	void request();
 
-	void copy(int cpt);
+	void setFontPath(std::string path);
+	void setGamePath(std::string path);
+
+	std::string getFontPath();
+	std::string getGamePath();
+
 	void copy();
+	void copy(int cpt);
+	
 };
+
+#endif
