@@ -19,10 +19,6 @@ public:
 
 	std::string getFontPath();
 	std::string getGamePath();
-
-	void copy();
-	void copy(int cpt);
-	
 };
 
 #endif
