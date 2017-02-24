@@ -108,7 +108,6 @@ void applyFont(std::string fontPath, std::string gamePath, int i) {
 				std::cout << "ERROR" << std::endl;
 			else
 				std::cout << "file copyied Successfully" << std::endl;
-			std::cout << gPath << std::endl;
         	break;
 
         case 2:
@@ -120,7 +119,6 @@ void applyFont(std::string fontPath, std::string gamePath, int i) {
 				std::cout << "ERROR" << std::endl;
 			else
 				std::cout << "file copyied Successfully" << std::endl;
-			std::cout << gPath << std::endl;
         	break;
 
         case 3:
@@ -132,7 +130,6 @@ void applyFont(std::string fontPath, std::string gamePath, int i) {
 				std::cout << "ERROR" << std::endl;
 			else
 				std::cout << "file copyied Successfully" << std::endl;
-			std::cout << gPath << std::endl;
         	break;
 
         case 4:
