@@ -17,10 +17,14 @@ The app is still in development.
 Download the app and run :
 > app.exe
 
-- Choose the font via the explorer dialog.
-- Locate your h1z1 font directory like :  
+* Choose the font via the explorer dialog.
+* Locate your h1z1 font directory like :  
 > C:/Program Files (x86)/Steam/steamapps/common/H1Z1 King of the Kill/UI/Resource/Fonts/
-- Apply the fonts
+* Apply the fonts
+
+# How to get old files back
+Just verify the game cache integrity via steam !
+
 
 Enjoy :)  
-Feel free to ask me about this, or suggest ideas :)
+Feel free to ask me about this, or suggest ideas.
