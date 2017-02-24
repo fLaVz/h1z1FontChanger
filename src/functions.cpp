@@ -85,9 +85,13 @@ std::string findFile(HWND parentWindow)
 
 void changeFont(std::string fontPath, std::string gamePath) {
 
-
-	for(int i = 1; i < 12; i++)
-		applyFont(fontPath, gamePath, i);
+    if(fontPath == "" || gamePath == ""){
+        std::cout << "ERROR, font or folder not choosen.." << std::endl;
+    }
+    else {
+	   for(int i = 1; i < 12; i++)
+	       applyFont(fontPath, gamePath, i);
+    }
 
 }
 
