@@ -6,19 +6,20 @@ Made by *Julien "fLaV" Delvaux.*
 This is the first version of the app.  
 Further improvements will certainly come like :
 
-- [ ] Insert a GUI to simplify the app.
-- [ ] Handle uncommon game paths.
-- [ ] Handle fonts which are not in the font folder.  
+- [x] Insert a GUI to simplify the app.
+- [x] Handle uncommon game paths.
+- [x] Handle fonts which are not in the font folder.  
 
-This list will be updated over the time.
+This list could be updated over the time.
 
 # How to use it
 The app is still in development.  
-Altough you can download the app and run :
+Download the app and run :
 > app.exe
 
-You need to put the font file (fontName.ttf) in the font folder.  
-The app will copy the font in the default h1z1 directory : 
-> C:/Program Files (x86)/Steam/steamapps/common/H1Z1 King of the Kill/UI/Resource/Fonts/
+- Choose the font via the explorer dialog.
+- Locate your h1z1 directory which is like > C:/Program Files (x86)/Steam/steamapps/common/H1Z1 King of the Kill/UI/Resource/Fonts/
+- Apply the fonts
 
+Enjoy :)
 Feel free to ask me about this, or suggest ideas :)
